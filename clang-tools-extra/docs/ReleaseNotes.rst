@@ -113,7 +113,8 @@ New check aliases
 Changes in existing checks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Added `ctime` and `localtime` to clang-tidy.
+- New unsafe functions checks :doc:`bugprone-unsafe-functions-check`
+  <clang-tidy/bugprone/UnsafeFunctionsCheck.cpp> were added to clang-tidy.
 
 - Improved :doc:`bugprone-casting-through-void
   <clang-tidy/checks/bugprone/casting-through-void>` check to suggest replacing
