@@ -97,8 +97,6 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
-- Added `ctime` and `localtime` to clang-tidy.
-
 - Improved :program:`run-clang-tidy.py` script. Fixed minor shutdown noise
   happening on certain platforms when interrupting the script.
 
@@ -114,6 +112,8 @@ New check aliases
 
 Changes in existing checks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Added `ctime` and `localtime` to clang-tidy.
 
 - Improved :doc:`bugprone-casting-through-void
   <clang-tidy/checks/bugprone/casting-through-void>` check to suggest replacing
